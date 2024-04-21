@@ -1,0 +1,103 @@
+
+h2{
+    font-size: var(--font-size-h2);
+}
+
+h3{
+    background-color: var(--color-background-h3);
+    font-size: var(--font-size-h3);
+    color: var(--color-text-h3);
+    line-height: 1;
+    padding: var(--size-spacing-default);
+}
+
+section{
+    color: var(--color-text-section);
+}
+body{
+    display: grid;
+    background-color: var(--color-body-background);
+    text-align: left;
+    width: fit-content;
+    grid-template-columns: [start] repeat(var(--size-num-gridcol), 1fr) [end];
+    gap: var(--size-page-gap);
+    
+}
+
+.pokemon{
+    display: contents;
+}
+
+header{
+    display: grid;
+    align-items: baseline;    
+    padding: var(--size-spacing-default);
+    background-color: var(--color-background-header);
+    color: var(--color-text-header);
+    font-family: var(--font-family-header);
+    font-size: var(--font-size-header);
+    line-height: 1; 
+    grid-column: start/end;
+    
+}
+
+/* get help!! not aligning properly*/ 
+header > #name{
+    display: contents;
+    grid-column: start / 3;
+}
+
+header > #number{
+    display: contents;
+    grid-column: 7 / end;
+}
+
+.introduction{
+    display: contents;
+}
+
+.introduction > img{
+    border-color: var(--color-content-outlinebox);
+    border: var(--size-page-gap) solid;
+    grid-column: start/5;
+    background-color: var(--color-background-section);
+    padding: var(--size-spacing-default);   
+}
+
+.introduction > .details{
+    background-color: var(--color-background-section);
+    padding: var(--size-spacing-default);
+    margin: var(--size-spacing-default);
+    grid-column: 5/end;
+}
+
+.introduction > .details > p{
+    margin-left: var(--size-spacing-large);
+}
+
+.move_set{
+    grid-column: start/5;
+}
+
+.move_set > #LvlMoveSet > thead{
+    background-color: var(--color-content-tablehead);
+    text-align: center;
+}
+
+.move_set >#LvlMoveSet > tbody > tr:nth-child(even){
+    background-color: var(--color-content-tablerow);
+}
+
+.Locations{
+    grid-column: 5/end;
+}
+
+
+
+
+
+
+
+
+
+

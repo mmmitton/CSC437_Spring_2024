@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel = "stylesheet" href="styles/tokens.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script type = "module" src="javaScript/load_content.js"></script>
+</head>
+
+<body>
+    <section id="before-load">
+        <h1>Welcome to HaunterHub, your Ghastly Guide to the PokeVerse</h1>
+        <img src="images/pokemon/gen_1/gengar_index_page.gif">
+        <button onclick="loadHTML('./intro_frag.html', 
+            event.target.closest('section'))">
+            click here to enter
+        </button>
+    </section>
+
+
+</body>
+
+</html>

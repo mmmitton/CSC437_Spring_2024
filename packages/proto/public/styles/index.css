@@ -1,0 +1,17 @@
+
+body {
+    background-color: var(--color-body-backgroundbefore);
+    color: var(--color-text-header);    
+    text-align: center;
+}
+
+body > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body > button{
+    background-color: var(--color-content-indexbutton);
+    color: var(--color-text-header);
+}

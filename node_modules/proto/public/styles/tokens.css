@@ -1,0 +1,26 @@
+:root{
+    --font-size-header: 1.25rem;
+    --font-size-h3: 0.875rem;
+    --font-size-h2: 1rem;
+    
+    --font-family-header:"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+
+    --size-spacing-default: 0.5rem;
+    --size-spacing-large: 1rem;
+    --size-num-gridcol: 8;
+    --size-num-gridrow: 8;
+    --size-page-gap: 0.6rem;
+
+    --color-body-backgroundafter: rgb(255,255,255);
+    --color-body-backgroundbefore: rgb(0,0,0);
+    --color-background-header: rgb(95,0,160);
+    --color-text-header: rgb(255,255,255);
+    --color-background-section: rgb(255,255,255);
+    --color-text-section: rgb(119,0,200);
+    --color-text-h3: rgb(255,255,255);
+    --color-background-h3: rgb(119,0,200);
+    --color-content-outlinebox: rgb(186,85,255);
+    --color-content-tablehead: rgb(219,165,255);
+    --color-content-tablerow: rgb(243,225,255);
+    --color-content-indexbutton: rgb(198, 33, 33);
+}
