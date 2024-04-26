@@ -38,18 +38,33 @@ header{
     font-size: var(--font-size-header);
     line-height: 1; 
     grid-column: start/end;
+    grid-template-columns: subgrid;
+    grid-auto-flow: row dense;
     
 }
 
-/* get help!! not aligning properly*/ 
 header > #name{
-    display: contents;
-    grid-column: start / 3;
+    grid-column: start / span 3;
 }
 
 header > #number{
-    display: contents;
     grid-column: 7 / end;
+}
+
+header > .pokesearch{
+    grid-column: 4 / 7 ;
+}
+
+header > .menu{
+    grid-column: auto / end;
+    
+}
+
+label{
+    background: var(--color-content-menubackground);
+    padding: var(--size-spacing-small);
+
+
 }
 
 .introduction{

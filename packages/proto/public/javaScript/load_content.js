@@ -30,6 +30,7 @@ function loadHTML(href, container) {
         )
       );
   }
+  window.loadHTML = loadHTML
   
   const parser = new DOMParser();
   

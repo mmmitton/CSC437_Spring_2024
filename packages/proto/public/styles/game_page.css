@@ -1,0 +1,27 @@
+
+body{
+    display: grid;
+    background-color: var(--color-body-background);
+    text-align: left;
+    width: fit-content;
+    grid-template-columns: [start] repeat(var(--size-num-gridcol), 1fr) [end];
+    gap: var(--size-page-gap);
+    
+}
+
+.game{
+    display: contents;
+}
+
+
+header {
+    display: grid;
+    align-items: baseline;    
+    padding: var(--size-spacing-default);
+    background-color: var(--color-background-header);
+    color: var(--color-text-header);
+    font-family: var(--font-family-header);
+    font-size: var(--font-size-header);
+    line-height: 1;
+    grid-column: start / end;
+}

@@ -4,6 +4,8 @@ export function relayEvent(event, customType, detail) {
       bubbles: true,
       detail
     });
+
+    console.log(event)
   
     relay.dispatchEvent(customEvent);
     event.stopPropagation();
